@@ -37,3 +37,17 @@ Como las funciones iniciales fastidian la legilibilidad del programa creamos un 
 Esto se ve en `triangulo/posible_evolución/version3.py`. Pero hemos hecho algo más, para darle una apariencia más profesional permitimos que en la llamada se puedan informar directamente los parámetros base y altura (en ese orden).
 
 Se monta una estructura de ifs que permite que el programa pida el parámetro faltante o mal informado. Es interesante revisar en detalle esa estructura de ifs.
+
+## Factura
+Este ejercicio es ahora más fácil. Copiamos `mis_inputs.py` y lo modificamos para hacer dos inputs `inputPrecio()` e `inputUnidades()`. En este caso no necesitamos los parámetros mensaje y error. Puede verse en `factura/mis_inputs.py`.
+
+Si nos fijamos la estructura del programa extrayendo la entrada de datos a un módulo hace que nos centremos sólo en tres puntos:
+    1. Preparación del programa: Creación de todas las variables necesarias
+    2. Bucle de procesamiento según el esquema descrito más arriba. 1ª lectura, while - procesamiento + siguiente lectura
+    3. Procesamiento final, en nuestro caso impresion de resultados
+
+De nuevo este es un esquema muy general.
+    1. Preparar datos
+    2. Procesar datos
+    3. Mostrar resultados
+    

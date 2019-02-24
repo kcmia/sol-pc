@@ -29,6 +29,7 @@ Nos aseguramos así de a) siempre leer al menos una vez y b) procesar la última
     - Input Base
     - Inptu Altura
     - Imprimir Area = Base * Altura / 2
+    
     Se ve con claridad en `triangulo/posible_evolucion/version2.02.py``
 
 ### Versión final
@@ -47,6 +48,7 @@ Si nos fijamos la estructura del programa extrayendo la entrada de datos a un m�
     3. Procesamiento final, en nuestro caso impresion de resultados
 
 De nuevo este es un esquema muy general.
+
     1. Preparar datos
     2. Procesar datos
     3. Mostrar resultados
